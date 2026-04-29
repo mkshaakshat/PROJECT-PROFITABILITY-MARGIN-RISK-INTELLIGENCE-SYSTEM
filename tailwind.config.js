@@ -10,23 +10,23 @@ export default {
         sans: ['Inter', 'sans-serif'],
       },
       colors: {
-        background: '#f4f4f5', // Zinc 100 for a softer light background
+        background: '#ffffff', 
         surface: '#ffffff',
-        border: '#e4e4e7',
-        sidebar: '#0f172a', // Deep slate for sidebar
+        border: '#f1f5f9',
+        sidebar: '#ffffff', 
         text: {
-          main: '#18181b', // Zinc 900
-          muted: '#71717a', // Zinc 500
-          inverse: '#f8fafc'
+          main: '#0f172a', // Slate 900
+          muted: '#64748b', // Slate 500
+          inverse: '#ffffff'
         },
         primary: {
-          50: '#eef2ff',
-          100: '#e0e7ff',
-          200: '#c7d2fe',
-          500: '#6366f1', // Indigo 500
-          600: '#4f46e5', // Indigo 600
-          700: '#4338ca', // Indigo 700
-          900: '#312e81',
+          50: '#fff7ed',
+          100: '#ffedd5',
+          200: '#fed7aa',
+          500: '#f97316', // Orange 500
+          600: '#ea580c', // Orange 600
+          700: '#c2410c', // Orange 700
+          900: '#7c2d12',
         },
         danger: {
           50: '#fef2f2',
@@ -49,6 +49,7 @@ export default {
       },
       boxShadow: {
         'soft': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
+        'orange': '0 10px 30px -5px rgba(249, 115, 22, 0.2)',
       }
     },
   },
