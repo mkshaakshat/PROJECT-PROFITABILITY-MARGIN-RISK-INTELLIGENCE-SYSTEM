@@ -22,9 +22,11 @@ export default {
         primary: {
           50: '#eef2ff',
           100: '#e0e7ff',
+          200: '#c7d2fe',
           500: '#6366f1', // Indigo 500
           600: '#4f46e5', // Indigo 600
           700: '#4338ca', // Indigo 700
+          900: '#312e81',
         },
         danger: {
           50: '#fef2f2',
