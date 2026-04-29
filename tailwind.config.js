@@ -49,7 +49,7 @@ export default {
       },
       boxShadow: {
         'soft': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
-        'orange': '0 10px 30px -5px rgba(249, 115, 22, 0.2)',
+        'premium': '0 10px 30px -5px rgba(249, 115, 22, 0.2)',
       }
     },
   },
